@@ -18,7 +18,7 @@ if language==1:
                 print("कृपया पुन्हा भेट द्या")
             else:
                 print("व्यवहार अयशस्वी..")
-        elif option==2:
+        if option==2:
             b=int(input("क्रेडिट रक्कम प्रविष्ट करा: "))
             if b<=20000:
                 print("व्यवहार पूर्ण..\nआता, तुमची एकूण शिल्लक: $",b+m)
@@ -27,18 +27,15 @@ if language==1:
                 print("कृपया पुन्हा भेट द्या")
             else:
                 print("व्यवहार अयशस्वी..$20000 पर्यंत क्रेडिटची परवानगी आहे")
-        elif option==3:
+        if option==3:
             print("खात्यातील शिल्लक: $",m)
             import time
             time.sleep(5)
             print("कृपया पुन्हा भेट द्या")
-        elif option==4:
+        if option==4:
             print("कृपया पुन्हा भेट द्या")
-    else:
-        print("अवैध पासवर्ड")
-    exit()
-
    
+
 if language == 2:
     print("...Welcome...")
     account = input("Account Name: ")
