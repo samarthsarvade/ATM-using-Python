@@ -71,12 +71,6 @@ if language == 2:
             print("Please Visit Again")
     else:
         print("Invalid Password")
-else:
-    print("Invalid Password")
-exit()
-
-        
-       
 exit()
 
 
